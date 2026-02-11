@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/series', [SeriesController::class, 'ListarSeries']);
+Route::get('/series', [SeriesController::class, 'index']);
