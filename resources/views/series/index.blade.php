@@ -3,7 +3,7 @@
 
   <ul>
     <?php foreach ($series as $serie): ?>
-      <li><?= $serie ?></li>
+      <li><?= $serie->Nome ?></li>
     <?php endforeach; ?>
   </ul>
 </x-layout>

@@ -9,11 +9,7 @@ class SeriesController extends Controller
 {
     public function index()
     {
-        $series = [
-            "Friends",
-            "Game of Thrones",
-            "The Office"
-        ];
+        $series = DB::select("SELECT Nome FROM series");
 
         return view('series.index', compact('series'));
     }
