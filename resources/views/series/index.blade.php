@@ -1,4 +1,6 @@
 <x-layout title="Séries">
+  <a href="/series/create">Adicionar série</a>
+
   <ul>
     <?php foreach ($series as $serie): ?>
       <li><?= $serie ?></li>
